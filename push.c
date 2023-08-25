@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
- * push - pushes an element to the stack
- * @stack: double pointer to the head of the stack
- * @line_number: line number of the opcode
- * Return: void
+ * push - the func pushes an element to the stack
+ * @stack: double pointer to head in stack
+ * @line_number: line number
+ * Return: returns void
 */
 
 void push(stack_t **stack, unsigned int line_number)
