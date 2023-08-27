@@ -36,10 +36,6 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
-void fr_myqueue(stack_t **head, unsigned int count)
-void freethe_stack(stack_t *head)
-void ff_stack(stack_t **head, unsigned int count)
-void addtoqueue(stack_t **head, int x)
 void push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
